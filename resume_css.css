@@ -1,0 +1,60 @@
+.navbar-nav a:hover {
+    font-weight: bold;
+    color: #fff;
+}
+.banner {
+    width: 100%;
+    height: 300px;
+}
+.banner img {
+    object-fit: cover;
+}
+.anchor{
+    display: block;
+    height: 60px; /* 高度與navbar相同, 用來補上被navbar覆蓋的高度 */
+    margin-top: -60px; /* 高度與navbar相同, 將頁面內容拉近, 不要造成額外空白 */
+    visibility: hidden; /* 隱藏 */
+}
+.pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.pic img {
+    object-fit: cover;
+}
+.col-12 .pic {
+    margin-top: -100px;
+}
+footer {
+    background-color: #333;
+    color: #aaa;
+    text-align: center;
+    padding: 10px 0;
+}
+.company_logo {
+    width: 64px; 
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.companyName:hover {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .pic {
+        margin: auto;
+    }
+    .col-12>h2 {
+        margin-top: 10px;
+    }
+    .company_logo {
+        width: 44px; 
+    }
+    .fju_logo {
+        width: 80px;
+        margin-right: 10px;
+    }
+}
+    
