@@ -4,9 +4,344 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Git</title>
+    <title>Ethan's Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="resume_css.css"/>
 </head>
 <body>
-    <p>Hello Git</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Ethan's Resume</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="#About Me">About Me</a>
+                    <a class="nav-link" href="#Experience">Experiences</a>
+                    <a class="nav-link" href="#Skill">Skills</a>
+                    <a class="nav-link" href="#Education">Education</a>
+                    <a class="nav-link" href="#Certification">Certification</a>
+                    <a class="nav-link" href="#Contact">Contact</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Language
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="resume-en.html">English</a></li>
+                            <li><a class="dropdown-item" href="resume-zh.html">中文</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner overflow-hidden justify-content-center align-items-center mt-5">
+        <img src="./images/banner.jpg" class="w-100 h-100">
+
+    </div>
+
+    <div class="anchor" id="About Me"></div>
+    <div class="box">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 mb-2 mb-md-0">
+                    <div class="pic overflow-hidden">
+                        <img src="./images/me.jpg" class="w-100 h-100">
+                    </div>
+                    <h2 class="mt-3 text p-sm-3 p-md-4 text-center text-md-start"><em>About Me</em></h2>
+                </div>
+                <div class="col-12 col-md-9 ms-auto">
+                    <div class="text p-sm-3 p-md-4">
+                        <h4>KO, YUNG-YI (Ethan)</h4>
+                        <h5 class="mb-3"><i>Software Application Engineer</i></h5>
+                        <p>
+                            Over 11 years of computing industry experience. Mainly responsible for driver and preinstall
+                            process management, issue analysis and testing.
+                        </p>
+                        <p>
+                            Good experience of multiple Intel platform projects for 10 HP laptop NPI projects, 5 HP laptop
+                            softroll projects, 1 Getac laptop NPI project and arm platform for 2 NOKIA pad NPI projects.
+                        </p>
+                        <p>System issue troubleshooting include event logs, memory dump and stress tool log analysis.</p>
+                        <p>Management drivers and issues control via the Pulsar and Sudden Impact system of HP.</p>
+                        <p>
+                            Good experience of driver submission for windows update and packaging driver to Softpaq via the
+                            SMR system of HP.
+                        </p>
+                        <p>Good experience of business travel to China for HP project NPI build and issue clarified.</p>
+                        <p>Leading gray area issue resolution with mixed function teams, as main contact of OEM/IHV.</p>
+                        <p>
+                            Strong knowledge and proficiency in providing support of the Windows operating system from
+                            WIN7 to WIN11 and WinPE.
+                        </p>
+                        <p>Good experience of Software/Firmware compatibility test.</p>
+                        <p>
+                            Self-learning technology: documents study, software tools and programming languages (Python,
+                            html/CSS, JavaScript, MySQL)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="anchor" id="Experience"></div>
+    <div class="box bg-secondary bg-opacity-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <h2 class="text p-sm-3 p-md-4 text-center text-md-start"><em>Experiences</em></h2>
+                </div>
+                <div class="col-12 col-md-9 ms-auto">
+                    <div class="text p-sm-3 p-md-4">
+                        <div class="card mb-3 d-flex flex-row">
+                            <div>
+                                <img src="./images/Compal.png" class="company_logo">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Software Application Engineer</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    <a href="https://www.compal.com/" target="_blank" class="text-decoration-none text-success companyName">Compal Electronic, Inc.</a>
+                                    <p class="mt-1"><small class="text-muted">Nov 2016 ~ Oct 2021・4 yrs 11 mos</small></p>
+                                </h6>
+                                <p class="card-text">
+                                    Driver/FW verify and release. To make sure image unbundle process going well and some known
+                                    issues had been fixed before released.
+                                </p>
+                                <p class="card-text">
+                                    Analyze issues, issue status maintained and update, driver/FW schedule controlled, collaborate
+                                    with OEM/IHVs/other function teams. Functions verified, issues reproduced and analyzed.
+                                </p>
+                                <p class="card-text">
+                                    Summarizing all issues status then report to OEM/IHVs for request fixed driver and hosting the
+                                    weekly meeting for issue review.
+                                </p>
+                                <p class="card-text">
+                                    Studying related documents for functions verified and issues clarified.
+                                </p>
+                                <p class="card-text">
+                                    ADK and HLK execution, troubleshooting and analysis.
+                                </p>
+                                <p class="card-text">
+                                    Driver submission for windows update and packaging softpaq.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 d-flex flex-row">
+                            <div>
+                                <img src="./images/Getac.png" class="company_logo">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Design Quality Assurance Engineer</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    <a href="https://www.getac.com/" target="_blank" class="text-decoration-none text-success companyName">Getac Technology Corporation</a>
+                                    <p class="mt-1"><small class="text-muted">Apr 2015 ~ Oct 2016・1 yr 6 mos</small></p>                                    
+                                </h6>
+                                <p class="card-text">
+                                    Software/Firmware compatibility test for laptop, tablet, docking (Test item: 
+                                    BIOS, CPU, RAM, HDD, ODD, Touch Screen, Touch Pad, Keyboard, Wifi/BT, LAN, 
+                                    Graphic, Audio, GPS, Barcode Scanner, I/O ports, Card Reader, Battery, Webcam quality).
+                                </p>
+                                <p class="card-text">
+                                    Setup AD, DHCP, WDS, MDT on Windows Server 2012R2 for PXE boot, drivers and deployment.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 d-flex flex-row">
+                            <div>
+                                <img src="./images/Compal.png" class="company_logo">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Design Quality Assurance Engineer</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    <a href="https://www.compal.com/" target="_blank" class="text-decoration-none text-success companyName">Compal Electronic, Inc.</a>
+                                    <p class="mt-1"><small class="text-muted">Dec 2011 ~ Apr 2015・3 yrs 4 mos</small></p> 
+                                </h6>
+                                <p class="card-text">
+                                    Setup SWDL server, switch hub and write batch script for image download process automatically.
+                                </p>
+                                <p class="card-text">
+                                    Perform WAT (Wide area test) to verify widely devices compatibility.<br>
+                                    Multimedia to verify widely audio/video file format compatibility.<br>
+                                    Wi-Fi, Bluetooth, NFC to verify throughput and low/middle/high bandwidth connection quality.
+                                </p>
+                                <p class="card-text">
+                                    Perform reliability test (ex: I/O ports life, bending, drop, thermal shock…) to verify durability and mechanical strength.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 d-flex flex-row">
+                            <div>
+                                <img src="./images/Pega.png" class="company_logo">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Design Quality Assurance Engineer</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    <a href="https://www.pegatroncorp.com/" target="_blank" class="text-decoration-none text-success companyName">Pegatron Corporation</a>
+                                    <p class="mt-1"><small class="text-muted">Dec 2010 ~ Nov 2011・0 yrs 11 mos</small></p> 
+                                </h6>
+                                <p class="card-text">
+                                    Consumer Electronics reliability test. (Pioneer MP3, Pioneer Speaker, Robot cleaner)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 d-flex flex-row">
+                            <div>
+                                <img src="./images/MTK.png" class="company_logo">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">IT Helpdesk Engineer</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    <a href="https://www.mediatek.com/" target="_blank" class="text-decoration-none text-success companyName">MediaTek Inc.</a>
+                                    <p class="mt-1"><small class="text-muted">Oct 2009 ~ Oct 2010・1 yr 0 mos</small></p> 
+                                </h6>
+                                <p class="card-text">
+                                    Using remote control software tool to troubleshoot problems of end user’s PC, NB, 
+                                    network connection problems and support user to use IT equipment and services in the company.
+                                </p>
+                                <p class="card-text">    
+                                    System backup and restore if user request to re-install their PC, NB.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="anchor" id="Skill"></div>
+    <div class="box">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <h2 class="text p-sm-3 p-md-4 text-center text-md-start"><em>Skills</em></h2>
+                </div>
+                <div class="col-12 col-md-9 ms-auto">
+                    <div class="text p-sm-3 p-md-4 mb-2">
+                        <h5>
+                            <span class="badge text-bg-secondary m-1">Windows Operating System</span>
+                            <span class="badge text-bg-secondary m-1">Reliability Testing</span>
+                            <span class="badge text-bg-secondary m-1">Compatibility Testing</span>
+                            <span class="badge text-bg-secondary m-1">OS/driver issue analysis</span>
+                            <span class="badge text-bg-secondary m-1">Python</span>
+                            <span class="badge text-bg-secondary m-1">HTML/CSS/Bootstrap</span>
+                            <span class="badge text-bg-secondary m-1">JavaScript</span>
+                            <span class="badge text-bg-secondary m-1">MySQL</span>
+                            <span class="badge text-bg-secondary m-1">Ability To Learn</span>
+                            <span class="badge text-bg-secondary m-1">Team Work</span>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="anchor" id="Education"></div>
+    <div class="box bg-secondary bg-opacity-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <h2 class="text p-sm-3 p-md-4 text-center text-md-start"><em>Education</em></h2>
+                </div>
+                <div class="col-12 col-md-9 ms-auto d-flex flex-row">
+                    <div class="p-sm-3 p-md-4">
+                        <img src="./images/FJU.png" width="100px" class="fju_logo">
+                    </div>
+                    <div class="text p-sm-3 p-md-4">
+                        <h4>Fu Jen Catholic University</h4>
+                        <p style="margin-bottom: 0px;">Bachelor’s Degree・Computer Science and Information Engineering</p>
+                        <p><small>2004 - 2008</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="anchor" id="Certification"></div>
+    <div class="box">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <h2 class="text p-sm-3 p-md-4 text-center text-md-start"><em>Certification</em></h2>
+                </div>
+                <div class="col-12 col-md-9 ms-auto">
+                    <div class="text p-sm-3 p-md-4">
+                        <h5>TOEIC: 610</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="anchor" id="Contact"></div>
+    <div class="box bg-secondary bg-opacity-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <h2 class="text p-sm-3 p-md-4 text-center text-md-start"><em>Contact</em></h2>
+                    <p class="mb-1">Tel. +886-912661373</p>
+                    <p>Email: coolk111@hotmail.com</p>
+                </div>
+                <div class="col-12 col-md-9 ms-auto">
+                    <div class="p-sm-3 p-md-4">
+                        <form method="post" action="MAILTO:coolk111@hotmail.com?subject=From Ethan's Resume">
+                            <div class="mb-3">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-md-2">
+                                        <label class="form-label">Title</label>
+                                        <select class="form-select" required>
+                                            <option selected disabled>Select ...</option>
+                                            <option value="Mr">Mr.</option>
+                                            <option value="Ms">Ms.</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <label class="form-label">First Name</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <label class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email Address</label>
+                                <input type="email" class="form-control" placeholder="name@example.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-success" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; Copyright 2022 by Ethan
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".navbar-nav>a").click(function(){
+                $(".navbar-toggler").click();
+            });
+        });
+    </script>
 </body>
 </html>
